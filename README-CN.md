@@ -1,4 +1,3 @@
-
 <div align="center">
   <img src="Pics/ReasoningV-Logo.jpeg" width="200" alt="ReasoningV Logo"> <div>&nbsp;</div>
   <h1>ReasoningV: 高效 Verilog 代码生成与自适应混合推理模型</h1>
@@ -8,12 +7,14 @@
 
   <div>&nbsp;</div>
 
-  [🤗 Hugging Face 数据集](https://huggingface.co/datasets/hyq001/ReasoningV-5K) | [🤗 Hugging Face 模型](https://huggingface.co/hyq001/ReasoninV) | [🌐 GitHub 仓库](https://github.com/BUAA-CLab/ReasoningV) | [📄 论文](https://arxiv.org/pdf/2504.14560v3)
+  [🤗 Hugging Face 数据集](https://huggingface.co/datasets/GipAI/ReaoningV) | [🤗 Hugging Face 模型](https://huggingface.co/GipAI/ReasoningV-7B) | [🌐 ModelScope 数据集](https://modelscope.cn/datasets/GipsyAI/ReasoningV) | [🌐 ModelScope 模型](https://modelscope.cn/models/GipsyAI/ReasoningV-7B) | [📄 论文](https://arxiv.org/pdf/2504.14560v3)
 
   <div>&nbsp;</div>
 
-  [![Hugging Face Dataset](https://img.shields.io/badge/数据集(HuggingFace)-ReasoningV--5K-blue?link=https://huggingface.co/datasets/hyq001/ReasoningV-5K)](https://huggingface.co/datasets/hyq001/ReasoningV-5K)
-  [![Hugging Face Model](https://img.shields.io/badge/模型(HuggingFace)-ReasoningV-blue?link=https://huggingface.co/hyq001/ReasoninV)](https://huggingface.co/hyq001/ReasoninV)
+  [![Hugging Face Dataset](https://img.shields.io/badge/数据集(HuggingFace)-ReasoningV-blue?link=https://huggingface.co/datasets/GipAI/ReaoningV)](https://huggingface.co/datasets/GipAI/ReaoningV)
+  [![Hugging Face Model](https://img.shields.io/badge/模型(HuggingFace)-ReasoningV--7B-blue?link=https://huggingface.co/GipAI/ReasoningV-7B)](https://huggingface.co/GipAI/ReasoningV-7B)
+  [![ModelScope Dataset](https://img.shields.io/badge/数据集(ModelScope)-ReasoningV-orange?link=https://modelscope.cn/datasets/GipsyAI/ReasoningV)](https://modelscope.cn/datasets/GipsyAI/ReasoningV)
+  [![ModelScope Model](https://img.shields.io/badge/模型(ModelScope)-ReasoningV--7B-orange?link=https://modelscope.cn/models/GipsyAI/ReasoningV-7B)](https://modelscope.cn/models/GipsyAI/ReasoningV-7B)
   [![GitHub Stars](https://img.shields.io/github/stars/BUAA-CLab/ReasoningV?style=social)](https://github.com/BUAA-CLab/ReasoningV)
   [![License](https://img.shields.io/github/license/BUAA-CLab/ReasoningV.svg)](https://github.com/BUAA-CLab/ReasoningV/blob/main/LICENSE) [![Python Version](https://img.shields.io/badge/python-3.x-blue)](https://www.python.org/) <div>&nbsp;</div>
 
@@ -41,7 +42,7 @@ ReasoningV 是一个旨在通过解决大型语言模型 (LLM) 在 Verilog 代�
 
 我们的工作引入了三项互补创新：
 
-1.  **ReasoningV-5K 数据集:** 一个包含超过 5000 个功能已验证并带有推理路径的高质量 Verilog 数据集。
+1.  **ReasoningV 数据集:** 一个包含功能已验证并带有推理路径的高质量 Verilog 数据集。
 2.  **两阶段训练:** 一种结合参数高效微调以构建基础知识和全参数优化以增强推理能力的训练方法。
 3.  **自适应推理机制:** 根据问题复杂度动态调整推理深度，以提高效率（减少 token 消耗）同时保持性能。
 
@@ -54,15 +55,21 @@ ReasoningV 是一个旨在通过解决大型语言模型 (LLM) 在 Verilog 代�
 
 我们致力于开源 ReasoningV 项目的关键组件，以促进 AI 驱动的硬件设计领域的研究和开发。
 
-我们计划发布以下内容：
+我们已经发布了以下资源：
 
-- [ ] **ReasoningV-5K 数据集:** 高质量、功能已验证的数据集（[Hugging Face 链接](https://huggingface.co/datasets/hyq001/ReasoningV-5K)）。
-- [ ] **ReasoningV 模型权重:** 预训练模型权重（[Hugging Face 链接](https://huggingface.co/hyq001/ReasoninV)）。
+- ✅ **ReasoningV 数据集:** 高质量、功能已验证的数据集可在以下平台获取：
+  - [Hugging Face](https://huggingface.co/datasets/GipAI/ReaoningV)
+  - [ModelScope](https://modelscope.cn/datasets/GipsyAI/ReasoningV)
+  
+- ✅ **ReasoningV-7B 模型权重:** 预训练模型权重可在以下平台获取：
+  - [Hugging Face](https://huggingface.co/GipAI/ReasoningV-7B)
+  - [ModelScope](https://modelscope.cn/models/GipsyAI/ReasoningV-7B)
+
 - [ ] **两阶段训练代码:** 我们提出的训练方法的代码实现。
 
 **发布策略:**
 
-我们将在论文被正式接收发表后，陆续开源训练代码及其他相关资源。敬请关注！
+数据集和模型权重现已在 Hugging Face 和 ModelScope 平台上提供。我们将在论文被正式接收发表后，陆续开源训练代码及其他相关资源。敬请关注！
 
 -----
 <div id="citation"></div>

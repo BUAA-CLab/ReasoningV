@@ -1,5 +1,3 @@
-
-
 <div align="center">
   <img src="Pics/ReasoningV-Logo.jpeg" width="200" alt="ReasoningV Logo"> <div>&nbsp;</div>
   <h1>ReasoningV: Efficient Verilog Code Generation with Adaptive Hybrid Reasoning Model</h1>
@@ -9,12 +7,14 @@
 
   <div>&nbsp;</div>
 
-  [🤗 Hugging Face Dataset](https://huggingface.co/datasets/hyq001/ReasoningV-5K) | [🤗 Hugging Face Model](https://huggingface.co/hyq001/ReasoninV) | [🌐 GitHub Repo](https://github.com/BUAA-CLab/ReasoningV) | [📄 Paper](https://arxiv.org/pdf/2504.14560v3)
+  [🤗 Hugging Face Dataset](https://huggingface.co/datasets/GipAI/ReaoningV) | [🤗 Hugging Face Model](https://huggingface.co/GipAI/ReasoningV-7B) | [🌐 ModelScope Dataset](https://modelscope.cn/datasets/GipsyAI/ReasoningV) | [🌐 ModelScope Model](https://modelscope.cn/models/GipsyAI/ReasoningV-7B) | [📄 Paper](https://arxiv.org/pdf/2504.14560v3)
 
   <div>&nbsp;</div>
 
-  [![Hugging Face Dataset](https://img.shields.io/badge/Dataset-ReasoningV--5K-blue?link=https://huggingface.co/datasets/hyq001/ReasoningV-5K)](https://huggingface.co/datasets/hyq001/ReasoningV-5K)
-  [![Hugging Face Model](https://img.shields.io/badge/Model-ReasoningV-blue?link=https://huggingface.co/hyq001/ReasoninV)](https://huggingface.co/hyq001/ReasoninV)
+  [![Hugging Face Dataset](https://img.shields.io/badge/Dataset-HuggingFace-blue?link=https://huggingface.co/datasets/GipAI/ReaoningV)](https://huggingface.co/datasets/GipAI/ReaoningV)
+  [![Hugging Face Model](https://img.shields.io/badge/Model-HuggingFace-blue?link=https://huggingface.co/GipAI/ReasoningV-7B)](https://huggingface.co/GipAI/ReasoningV-7B)
+  [![ModelScope Dataset](https://img.shields.io/badge/Dataset-ModelScope-orange?link=https://modelscope.cn/datasets/GipsyAI/ReasoningV)](https://modelscope.cn/datasets/GipsyAI/ReasoningV)
+  [![ModelScope Model](https://img.shields.io/badge/Model-ModelScope-orange?link=https://modelscope.cn/models/GipsyAI/ReasoningV-7B)](https://modelscope.cn/models/GipsyAI/ReasoningV-7B)
   [![GitHub Stars](https://img.shields.io/github/stars/BUAA-CLab/ReasoningV?style=social)](https://github.com/BUAA-CLab/ReasoningV)
   [![License](https://img.shields.io/github/license/BUAA-CLab/ReasoningV.svg)](https://github.com/BUAA-CLab/ReasoningV/blob/main/LICENSE) [![Python Version](https://img.shields.io/badge/python-3.x-blue)](https://www.python.org/) <div>&nbsp;</div>
 
@@ -42,7 +42,7 @@ ReasoningV is a novel model designed to enhance Verilog code generation by addre
 
 Our work introduces three complementary innovations:
 
-1.  **ReasoningV-5K Dataset:** A high-quality dataset of over 5,000 functionally verified Verilog instances with reasoning paths.
+1.  **ReasoningV Dataset:** A high-quality dataset of functionally verified Verilog instances with reasoning paths.
 2.  **Two-Stage Training:** A training approach combining parameter-efficient fine-tuning for foundational knowledge with full-parameter optimization for enhanced reasoning.
 3.  **Adaptive Reasoning Mechanism:** Dynamically adjusts reasoning depth based on problem complexity to improve efficiency (reducing token consumption) while preserving performance.
 
@@ -55,18 +55,25 @@ Experimental results demonstrate ReasoningV's effectiveness, achieving competiti
 
 We are committed to open-sourcing the key components of the ReasoningV project to facilitate research and development in AI-driven hardware design.
 
-We plan to release the following:
+We have released the following resources:
 
-- [ ] **ReasoningV-5K Dataset:** High-quality, functionally verified dataset ([Hugging Face Link](https://huggingface.co/datasets/hyq001/ReasoningV-5K)).
-- [ ] **ReasoningV Model Weights:** Pre-trained model weights ([Hugging Face Link](https://huggingface.co/hyq001/ReasoninV)).
+- ✅ **ReasoningV Dataset:** High-quality, functionally verified dataset available on:
+  - [Hugging Face](https://huggingface.co/datasets/GipAI/ReaoningV)
+  - [ModelScope](https://modelscope.cn/datasets/GipsyAI/ReasoningV)
+  
+- ✅ **ReasoningV-7B Model Weights:** Pre-trained model weights available on:
+  - [Hugging Face](https://huggingface.co/GipAI/ReasoningV-7B)
+  - [ModelScope](https://modelscope.cn/models/GipsyAI/ReasoningV-7B)
+
 - [ ] **Two-Stage Training Code:** Code implementation for our proposed training methodology.
 
 **Release Strategy:**
 
-The dataset and model weights are already available on Hugging Face. We will continue to release the training code and other associated resources sequentially after the paper is formally accepted for publication. Stay tuned for updates!
+The dataset and model weights are now available on both Hugging Face and ModelScope platforms. We will continue to release the training code and other associated resources sequentially after the paper is formally accepted for publication. Stay tuned for updates!
 
 -----
 <div id="citation"></div>
+
 
 ## Citation
 
